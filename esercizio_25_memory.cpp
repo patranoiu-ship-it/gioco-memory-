@@ -7,36 +7,35 @@ using namespace std;
 
 int main(int argc, char** argv) {
 	srand(time(NULL));
-	 /*int l;          // valore ASCII
    
-    int n;          // lunghezza stringa
-    int val;        // valore convertito 
-    string x;
-
-    
-
-    n = x.length();
-
-    for(int i = 0; i < n; i++)
-    {
-        l = (int)x[i];
-        
-        val=rand()%26+65;
+   int cart=rand()%4+4;
+   char x[cart][cart];
+   cout<<cart;
+   
+   for(int i=0; i<cart; i++)
+   {
+   	char l=rand()%26+65;
+    cout<<l;
    }
-   cout<<val;*/
    
-   int cartella[10][5];
+   /*if(cart%2==1)
+   {
+   	cout<<0;
+   }*/
    
-   for(int i=0; i<10; i++)
+   
+   /*
+   for(int i=0; i<7; i++)
    {
    	cout<<endl;
-   for(int i=0; i<5; i++)
+   for(int i=0; i<7; i++)
    { 
    char l=rand()%26+65;
    cout<<l;
-   
+    
    }
    }
+   */
 
 	
 	return 0;
